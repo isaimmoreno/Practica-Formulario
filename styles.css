@@ -1,0 +1,50 @@
+h1 {
+	text-align: center;
+}
+
+.container {
+	margin: 2em;
+	max-width: 40em;
+}
+
+.mb-3 {
+	margin: 1em;
+}
+
+.form-control {
+	float: right;
+}
+
+.btn-primary {
+	float: right;
+	height: 2em;
+	width: 10em;
+	background-color: #dd7973;
+	border-radius: 8px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    font-weight: 700;
+    margin: 18px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow:0 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+.text-danger {
+	background-color: darksalmon;
+	max-width: 15em;
+}
+
+@media screen and (max-width: 480px) {
+	.form-control {
+		float: none;
+	}
+
+	.text-danger {
+		float: bottom;
+	}
+
+	#fechaNacimiento {
+		margin: 10px;
+	}
+}
